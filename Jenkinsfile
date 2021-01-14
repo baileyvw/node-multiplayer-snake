@@ -1,4 +1,5 @@
-node ('apps-1'){  
+#node ('apps-1'){ 
+node ('apps1-agent'){     
     def app
     stage('Cloning Git') {
         /* Let's make sure we have the repository cloned to our workspace */
